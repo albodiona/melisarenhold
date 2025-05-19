@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -26,20 +28,21 @@
    align-items: center; 
    padding: 0.9rem;
    font-size: 1.2rem;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: "Golos Text", sans-serif;
    margin-inline: 2rem;
 
 }
 
  nav{
-    display: flex;
-    /* width: 80%; */
-    align-items: center;
-    justify-content: end;
-    gap: 70px;
-    margin-right: 5rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem; 
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   gap: 40px;
+   margin-right: 5rem;
+   font-family: "Golos Text", sans-serif;
+   font-size: 1.2rem; 
+   font-optical-sizing: auto;
+   font-style: normal;
  }
 
 .ekstra{
@@ -59,3 +62,16 @@
  a:hover{
     color: rgb(0, 17, 127);
  }
+
+main{
+   display: flex;
+   align-items: center;
+}
+.bedriftrenhold,
+.hjemmerenhold {
+   border-inline: 2px solid black;
+}
+
+footer{
+   padding-top: 40rem;
+}
